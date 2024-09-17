@@ -1,0 +1,13 @@
+@import 'partials/reset';
+@import 'partials/fonts';
+body {
+    font-family: 'Outfit';
+    margin: 0;
+    padding: 0;
+}
+
+.welcome {
+    font-size: 32px;
+    margin: 30px;
+    padding: 0;
+}
