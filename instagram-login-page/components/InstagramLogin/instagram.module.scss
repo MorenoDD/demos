@@ -1,0 +1,76 @@
+.wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    --color-border: rgb(219, 219, 219);
+}
+
+.inner {
+    width: 100%;
+    max-width: 760px;
+    display: flex;
+}
+
+.screenshots {
+    width: 380px;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.main {
+    flex: 1;
+    >div {
+        display: block;
+    }
+}
+
+.logo {
+    text-align: center;
+    width: 100%;
+    img {
+        width: 100%;
+        height: auto;
+        max-width: 175px;
+    }
+}
+
+.form {
+    margin: 0 40px;
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.field {
+    input {
+        width: 100%;
+        border: 1px solid var(--color-border);
+        background: rgb(219, 219, 219);
+    }
+}
+
+.box {
+    border: 1px solid var(--color-border);
+    padding: 10px 0;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.signup {
+    font-size: 14px;
+    margin: 15px;
+    text-align: center;
+    width: 100%;
+    a {
+        color: rgb(0, 149, 246);
+        font-weight: 600;
+    }
+}
